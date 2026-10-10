@@ -8,6 +8,7 @@ A Augusta é uma extensão independente. Não é produto, serviço nem extensão
 - Lê o processo aberto na sua aba do PJe (pje2g), usando a sua própria sessão, e consulta o Julia também com a sua sessão.
 - Não existe servidor da extensão. Nenhum dado é enviado ao desenvolvedor, e não há analytics, anúncios, rastreadores nem venda de dados.
 - Armazena apenas no seu navegador (chrome.storage): preferências, a chave de IA que você colar, o aprendizado de modelos aceitos e recusados e o retrato da sessão de trabalho. Os dados da sessão somem ao fechar o navegador.
+- Sigilo do processo: ao ler os autos, a extensão confere na própria página do PJe se o processo está em segredo de justiça. Com sigilo, a inteligência artificial fica desligada; sem sigilo indicado, a extensão apenas avisa e a confirmação continua sendo sua. Essa conferência acontece no navegador e não envia nada a ninguém.
 - Medição de uso, opcional e local: se estiver ligada (em "Mostrar detalhes"), guarda no navegador apenas as notas de semelhança mostradas, os fatores da nota, o tipo de decisão e o que você fez (usou, recusou, ignorou). Nunca guarda número de processo, nome de parte ou de magistrado, nem texto de peça. Você pode copiar a tabela, desligar o registro ou apagá-lo a qualquer momento.
 
 ## Envio a provedores de IA (somente se você configurar)
